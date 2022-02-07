@@ -1,104 +1,968 @@
 <!DOCTYPE html>
-<html lang="">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="port.css">
-	<title>Savitar608</title>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Kards</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
-<body>
-	<div class="row" id=sec1>
-		<div class="col-lg-12">
-			<ul>
-				<li id="hor_list"><a href="index.html">Home</a></li>
-				<li id="hor_list"><a href="#about">About</a></li>
-				<li id="hor_list"><a href="projects.html">Projects</a></li>
-				<li id="hor_list"><a href="skills.html">Skills</a></li>
-				<li id="hor_list"><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="row" id="space">
-	</div>
-	<div class="row" id="sec2">
-		<div class="col-lg-12">
-			<div class="row">
-				<h1 class="about">About Me</h1>
-			</div>
-			<div class="row" id="row1">
-				<div class="col-lg-8">
-					<ul>
-						<li id="ab">Undergrad studying MSc.Mathematics at BITS Pilani-K.K.Birla Goa Campus</li>
-						<li id="ab">Avid web developer </li>
-						<li id="ab">Programming enthusiast</li>
-						<li id="ab">Football lover </li>
-						<li id="ab">Foodie</li>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li><a href="styles.html" title="">Style Demo</a></li>				
 					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World</h5>
+	   			<h1>I'm Adithya</h1>
+				Also known by my alias Savitar608
+				<p></p>
+
+	   			<p class="intro-position">
+	   				<span>Cybersecurity Enthusiast</span>
+	   				<span>Software Developer</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://facebook.com/adithya.608.vijayakumar"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://github.com/Savitar608"><i class="fa fa-github"></i></a></li>
+         <li><a href="https://www.instagram.com/savitar608"><i class="fa fa-instagram"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+			My name is Adithya. I am an undergrad student at BITS Pilani, KK Birla Goa Campus doing MSc Mathematics and BE Mechanical Engineering. My hobbies are playing video games, playing with my dog (I love animals!!) and browsing reddit and other social media.
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead"></p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h2>Profile</h2>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Adithya</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>July 10, 1999</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Software Developer</span>
+   				</li>
+   				<li>
+   					<strong>Hobbies:</strong>
+   					<span>Playing video games, watching TV series, playing with my dog</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>adithya608@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h2>Skills</h2>
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>CSS3</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>Computer Networks</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent50"><span>50%</span></div>
+				   	<strong>Cybersecurity</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">My professional qualifications and work experiences.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Intern - Content (Tech)</h3>
+	   					<p>Jan 2022 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>upGrad Education Private Limited</h4>
+	   					<p>Intern working under the Content team in the Tech department</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Associate Program Manager</h3>
+	   					<p>July 2021 - Dec 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Trell Experiences Private Ltd.</h4>
+	   					<p>Worked on the growth of Trell Chat, which was released in mid-August.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Project Intern</h3>
+	   					<p>May 2019 - July 2019</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Carborundum Universal Ltd (CUMI)</h4>
+	   					<p>Worked on reducing the time taken for doing certain processes by analysis using VTR study.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Master's Degree</h3>
+	   					<p>July 2017 - June 2022</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Birla Institute of Technology and Science, Pilani, KK Birla Goa Campus</h4>
+	   					<p>Master of Science in Mathematics</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor's Degree</h3>
+	   					<p>July 2017 - June 2022</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Birla Institute of Technology and Science, Pilani, KK Birla Goa Campus</h4>
+	   					<p>Bachelor of Engineering in Mechanical Engineering</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Higher Secondary</h3>
+	   					<p>June 2015 - March 2017</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>VSSC Central School</h4>
+	   					<p>PCM with Computer Science and English</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ==================================================
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div>
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Liberty</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Graphic Design
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> 
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Shutterbug</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Design
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> 
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Clouds</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Design
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Beetle</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Branding
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>  
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Lighthouse</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Development
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/salad.jpg" alt="Salad">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Salad</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Branding
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>
+
+	            
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Liberty</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> 
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Shutterbug</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> 
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Clouds</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div>
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Beetle</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div>
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Lighthouse</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> 
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Salad</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> 
+
+
+				 
+
+	         </div> 
+
+   		</div>  
+
+   	</div> 
+		
+	</section> /portfolio --> 
+
+
+	<!-- CTA Section
+   ================================================== -->
+	<section id="cta" class="grey-section">
+
+   	<div class="row cta-content">
+
+   		<div class="col-twelve section-ads">  
+
+	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+
+		      <p class="lead">
+		      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->	
+				</p>
+
+				<div class="action">
+			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+		      </div>		     	
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta --> 
+
+	
+	<!-- services Section
+   ================================================== 
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div>
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Webdesign</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+	         		
+	         	</div> 	         	 
+
 				</div>
-				<div class="col-lg-4">
-					<a href="Portfolio.html">
-						<img id="myphoto" src="Photo.jpg" alt="profile photo">
-					</a>
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Web Development</h3>  
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+
+	            </div>	                          
+
+			   </div>
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>Branding</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+
+	            </div> 	            	               
+
+			   </div>
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>UI/UX Design</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	         		
+	            </div>                
+
 				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row" id="space" ">
-	</div>
-	<div class="row" id="sec3">
-		<div class="col-lg-12">
-			<div class="row">
-				<h1 class="about" id="eabout">Education Qualifications</h1>
-			</div>
-			<div class="row">
-				<div class="col-lg-10">
-					<ul>
-						<li id="edu">Graduated high school from VSSC Central School, Trivandrum, Kerala, India with a CGPA of 10</li>
-						<li id="edu">Graduated higher secondary from VSSC Central School, Trivandrum, Kerala, India with 94.8%</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row" id="space" ">
-	</div>
-	<div class="container" id="contact">
-  		<form action="action" method="get">
-   			<label for="fname">First Name</label>
-    		<input type="text" id="fname" name="firstname" placeholder="Your name..">
-    		<label for="lname">Last Name</label>
-   			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-   			<label for="email">E-mail</label>
-   			<input type="E-mail" id="email" name="email" placeholder="Your email address..">
-   			<label for="country">Country</label>
-    		<select id="country" name="country">
-    				<option selected="selected">Select your country..</option>
-      				<option value="australia">Australia</option>
-      				<option value="canada">Canada</option>
-      				<option value="usa">USA</option>
-      				<option value="india">India</option>
-      				<option value="china">China</option>
-      				<option value="japan">Japan</option>
-      				<option value="russia">Russia</option>
-      				<option value="france">France</option>
-      				<option value="germany">Germany</option>
-    		</select>
-    		<label for="subject">Subject</label>
-    		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    		<input type="submit" value="Submit">
-  		</form> 
-	</div>
-	<div class="row" style="height: 50px;">
-	</div>
-	<div class="footer">
-		<span id="cont">
-  		Get in contact with me via<br>
-  		</span>
-  		<a href="https://www.linkedin.com/in/adithya-vijayakumar-608"><img src="linkedin.png" alt="linkedin icon"></a>
-  		<a href="https://facebook.com/adithya.608.vijayakumar"><img src="fb.png" alt="facebook icon"></a>
-  		<a href="https://www.instagram.com/the_king_beyond_the_wall/"><img src="insta.png" alt="instagram icon"></a>
-  		<a href="https://twitter.com/adithya608"><img src="twitter.png" alt="twitter icon"></a>
-  		<a href="https://github.com/Adithya608"><img src="github.png" alt="github icon"></a>
-		<br><br>&copy 2017 by Adithya created using HTML,CSS and Bootstrap
-	</div>
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-image"></i></span>	            
+
+	            <div class="service-content">
+
+	            	<h3>Graphics Design</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+
+	            </div>	               
+
+			   </div>
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Consultancy</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	        			
+	            </div>	               
+
+			   </div>
+
+	      </div>
+   		
+   	</div>
+		
+	</section> -->	
+
+
+	<!-- stats Section
+   ================================================== 
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> 				
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							900
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div>
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							200
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div>								
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							120
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div>
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div>
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							7200
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div>
+
+				</div> 
+
+			</div> 
+		</div> 
+
+	</section> -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            CH3-133<br>
+            BITS Pilani, Goa Campus<br>
+            403726 India
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>adithya608@gmail.com<br>			     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: +919497274314<br>
+			   	Mobile: +918848309497<br>
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+     			<ul class="footer-social">        
+					<li><a href="https://facebook.com/adithya.608.vijayakumar"><i class="fa fa-facebook"></i></a></li>
+         			<li><a href="https://github.com/Savitar608"><i class="fa fa-github"></i></a></li>
+         			<li><a href="https://www.instagram.com/savitar_608"><i class="fa fa-instagram"></i></a></li>
+			   </ul> 
+	      	</div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
+
 </html>
